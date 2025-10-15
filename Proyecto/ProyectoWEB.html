@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Books Nest</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Lato', sans-serif;
+            background-color: #D7ACC4;
+            color: #6A4641;
+        }
+
+        header {
+            background-color: #8F4242;
+            color: white;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        header img {
+            height: 60px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .section {
+            padding: 40px 20px;
+        }
+
+        .section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #6A4641;
+        }
+
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .card {
+            background-color: #D6B1A5;
+            border-radius: 8px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #738886;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="https://raw.githubusercontent.com/NuriaRodriguezPardo/IAVA/refs/heads/main/Proyecto/Fotos/Logo.png" alt="Books Nest Logo">
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#productos">Productos</a>
+            <a href="#libros">Libros</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <section class="section" id="productos">
+        <h2>Productos destacados</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://raw.githubusercontent.com/NuriaRodriguezPardo/IAVA/refs/heads/main/Proyecto/Fotos/Tazas.png" alt="Tazas literarias">
+                <h3>Tazas literarias</h3>
+                <p>Diseños inspirados en clásicos y frases de autores.</p>
+            </div>
+            <div class="card">
+                <img src="https://raw.githubusercontent.com/NuriaRodriguezPardo/IAVA/refs/heads/main/Proyecto/Fotos/Termos.png" alt="Termos Books Nest">
+                <h3>Termos grandes y pequeños</h3>
+                <p>Perfectos para acompañar tus lecturas.</p>
+            </div>
+            <div class="card">
+                <img src="https://raw.githubusercontent.com/NuriaRodriguezPardo/IAVA/refs/heads/main/Proyecto/Fotos/Bags.png" alt="Tote Bags">
+                <h3>Tote Bags</h3>
+                <p>Ilustraciones literarias y colores cálidos.</p>
+            </div>
+            <div class="card">
+                <img src="https://raw.githubusercontent.com/NuriaRodriguezPardo/IAVA/refs/heads/main/Proyecto/Fotos/Cuadernos.png" alt="Cuadernos">
+                <h3>Cuadernos</h3>
+                <p>Para escribir tus ideas, sueños y relatos.</p>
+            </div>
+            <div class="card">
+                <img src="https://raw.githubusercontent.com/NuriaRodriguezPardo/IAVA/refs/heads/main/Proyecto/Fotos/Pines.png" alt="Pines esmaltados">
+                <h3>Pines esmaltados</h3>
+                <p>Pequeñas joyas literarias para coleccionar.</p>
+            </div>
+            <div class="card">
+                <img src="https://raw.githubusercontent.com/NuriaRodriguezPardo/IAVA/refs/heads/main/Proyecto/Fotos/Caja.png" alt="Cajas regalo">
+                <h3>Cajas regalo</h3>
+                <p>Libros, velas y detalles para lectores apasionados.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="libros">
+        <h2>Libros que amamos</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://raw.githubusercontent.com/NuriaRodriguezPardo/IAVA/refs/heads/main/Proyecto/Fotos/OrgulloYPrejuicio.png" alt="Orgullo y prejuicio">
+                <h3>Orgullo y prejuicio</h3>
+                <p>Jane Austen</p>
+            </div>
+            <div class="card">
+                <img src="https://raw.githubusercontent.com/NuriaRodriguezPardo/IAVA/refs/heads/main/Proyecto/Fotos/AliciaEnElPaisDeLasMaravillas.png" alt="Alicia en el país de las maravillas">
+                <h3>Alicia en el país de las maravillas</h3>
+                <p>Lewis Carroll</p>
+            </div>
+            <div class="card">
+                <img src="https://raw.githubusercontent.com/NuriaRodriguezPardo/IAVA/refs/heads/main/Proyecto/Fotos/Arturo.png" alt="Arturo">
+                <h3>Arturo</h3>
+                <p>La leyenda del Rey Arturo</p>
+            </div>
+            <div class="card">
+                <img src="https://raw.githubusercontent.com/NuriaRodriguezPardo/IAVA/refs/heads/main/Proyecto/Fotos/ElJardinSecreto.png" alt="El jardín secreto">
+                <h3>El jardín secreto</h3>
+                <p>Frances Hodgson Burnett</p>
+            </div>
+            <div class="card">
+                <img src="https://raw.githubusercontent.com/NuriaRodriguezPardo/IAVA/refs/heads/main/Proyecto/Fotos/CumbresBorrascosas.png" alt="Cumbres borrascosas">
+                <h3>Cumbres borrascosas</h3>
+                <p>Emily Brontë</p>
+            </div>
+            <div class="card">
+                <img src="https://raw.githubusercontent.com/NuriaRodriguezPardo/IAVA/refs/heads/main/Proyecto/Fotos/LaIslaDelTesoro.png" alt="La isla del tesoro">
+                <h3>La isla del tesoro</h3>
+                <p>Robert Louis Stevenson</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacto">
+        <p>Contacto: hola@booksnest.com</p>
+        <p>Síguenos en redes sociales: @booksnest</p>
+        <p><em>“Publicamos sueños, página a página”</em></p>
+    </footer>
+
+</body>
+
+</html>
