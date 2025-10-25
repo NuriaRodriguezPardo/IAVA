@@ -27,6 +27,7 @@ Este proyecto se basa en el **diseño de *prompts*** como habilidad clave. El *w
     * **Pipit:** Utilizado para crear las escenas dinámicas del anuncio (ej. editores conversando, pareja en el café).
     * **Flow:** Empleado para la animación de *assets* estáticos, como el *unboxing* del producto y la animación final del logo.
     * **DeeVid AI**
+    * **HeyGen** Empleado para la animación de avatares.
 
 * **Generación de Audio**
     * **Suno:** Utilizado para componer la **pieza musical** instrumental de 2:30, siguiendo el *prompt* de estilo "acogedor, calmado, discreto, piano suave y cuerdas cálidas".
